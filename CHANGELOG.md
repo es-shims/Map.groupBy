@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Map.groupBy/compare/v1.0.0...v1.0.1) - 2023-08-28
+
+### Commits
+
+- [Deps] update `es-abstract` [`4fd5072`](https://github.com/es-shims/Map.groupBy/commit/4fd50729474023a440e7dff43119e6cfad708f6f)
+- [Dev Deps] update `tape` [`b217ce6`](https://github.com/es-shims/Map.groupBy/commit/b217ce6658bf29aa7040d19e3213ad8e63b45fa2)
+
 ## v1.0.0 - 2023-07-11
 
 ### Commits
