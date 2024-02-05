@@ -10,7 +10,7 @@ var $mapSet = callBind($Map.prototype.set);
 var GroupBy = require('./aos/GroupBy'); // TODO: replace with es-abstract 2024 implementation
 
 module.exports = function groupBy(items, callbackfn) {
-	var groups = GroupBy(items, callbackfn, 'zero'); // step 1
+	var groups = GroupBy(items, callbackfn, 'ZERO'); // step 1
 
 	var map = new $Map(); // step 2
 

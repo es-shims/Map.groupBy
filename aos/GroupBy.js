@@ -1,7 +1,5 @@
 'use strict';
 
-var GetIntrinsic = require('get-intrinsic');
-
 var AddValueToKeyedGroup = require('./AddValueToKeyedGroup');
 var Call = require('es-abstract/2023/Call');
 var GetIterator = require('es-abstract/2023/GetIterator');
@@ -15,11 +13,11 @@ var ToPropertyKey = require('es-abstract/2023/ToPropertyKey');
 
 var maxSafeInteger = require('es-abstract/helpers/maxSafeInteger');
 
-var $TypeError = GetIntrinsic('%TypeError%');
+var $TypeError = require('es-errors/type');
 
 module.exports = function GroupBy(items, callbackfn, coercion) {
-	if (coercion !== 'property' && coercion !== 'zero') {
-		throw new $TypeError('Assertion failed: `coercion` must be `"property"` or `"zero"`');
+	if (coercion !== 'PROPERTY' && coercion !== 'ZERO') {
+		throw new $TypeError('Assertion failed: `coercion` must be ~PROPERTY~ or ~ZERO~');
 	}
 
 	RequireObjectCoercible(items); // step 1
@@ -55,15 +53,15 @@ module.exports = function GroupBy(items, callbackfn, coercion) {
 			IteratorClose(iteratorRecord, ThrowCompletion(e)); // step 6.f
 		}
 
-		if (coercion === 'property') { // step 6.g
+		if (coercion === 'PROPERTY') { // step 6.g
 			try {
 				key = ToPropertyKey(key); // step 6.g.i
 			} catch (e) {
 				IteratorClose(iteratorRecord, ThrowCompletion(e)); // step 6.g.ii
 			}
 		} else {
-			if (coercion !== 'zero') {
-				throw new $TypeError('Assertion failed: `coercion` should be `"zero"` here'); // step 6.h.i
+			if (coercion !== 'ZERO') {
+				throw new $TypeError('Assertion failed: `coercion` should be `"ZERO"` here'); // step 6.h.i
 			}
 			if (key === 0) { // step 6.h.ii
 				key = 0; // handle negative zero
