@@ -1,13 +1,14 @@
 'use strict';
 
 var callBind = require('call-bind');
+
+var GroupBy = require('es-abstract/2024/GroupBy');
+
 var forEach = require('es-abstract/helpers/forEach');
 
 var $Map = require('es-map/polyfill')();
 
 var $mapSet = callBind($Map.prototype.set);
-
-var GroupBy = require('./aos/GroupBy'); // TODO: replace with es-abstract 2024 implementation
 
 module.exports = function groupBy(items, callbackfn) {
 	var groups = GroupBy(items, callbackfn, 'ZERO'); // step 1
