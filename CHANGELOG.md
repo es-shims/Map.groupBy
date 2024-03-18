@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Map.groupBy/compare/v1.0.2...v1.0.3) - 2024-03-17
+
+### Commits
+
+- [Refactor] replace `es-abstract` with `es-object-atoms` when possible; update `call-bind`, `es-abstract`, `es-errors`, `get-intrinsic` [`fccc167`](https://github.com/es-shims/Map.groupBy/commit/fccc16732a807e206a36e7559448caa35b3990ff)
+- [meta] add missing `engines.node` [`7c37a32`](https://github.com/es-shims/Map.groupBy/commit/7c37a32e808e199b852e0ba63f40f16d9aa10561)
+- [Dev Deps] update `tape` [`c6fd058`](https://github.com/es-shims/Map.groupBy/commit/c6fd0586bcc21d0be18bdaae91555111073af826)
+
 ## [v1.0.2](https://github.com/es-shims/Map.groupBy/compare/v1.0.1...v1.0.2) - 2024-02-04
 
 ### Commits
