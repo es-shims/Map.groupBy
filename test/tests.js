@@ -92,6 +92,13 @@ module.exports = function (groupBy, t) {
 				'grouping a string works as expected'
 			);
 
+			var string = '🥰💩🙏😈';
+			var map2 = groupBy(string, function (char) {
+				return char < '🙏' ? 'before' : 'after';
+			});
+
+			s2t.deepEqual(map2, new $Map([['after', ['🥰', '🙏']], ['before', ['💩', '😈']]]));
+
 			s2t.end();
 		});
 
