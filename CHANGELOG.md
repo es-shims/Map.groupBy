@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Map.groupBy/compare/v1.0.3...v1.0.4) - 2025-03-25
+
+### Commits
+
+- [Tests] increase coverage [`039c0b1`](https://github.com/es-shims/Map.groupBy/commit/039c0b1170b6b7d52ba4827eb39152ae1cbbef07)
+- [Deps] remove unused deps, add missing dev dep [`a11571b`](https://github.com/es-shims/Map.groupBy/commit/a11571bbc943f3d17a5f86b9fac784d0ae8ba741)
+- [Dev Deps] update `@es-shims/api`, `auto-changelog`, `es-value-fixtures`, `for-each`, `tape` [`be72c3f`](https://github.com/es-shims/Map.groupBy/commit/be72c3f36a581eb173ebb644b4e63073f8725520)
+- [Deps] update `call-bind`, `es-abstract`, `es-map`, `get-intrinsic` [`3f2b7e2`](https://github.com/es-shims/Map.groupBy/commit/3f2b7e24f25b76ccf35c2a053bbb089f9e8d4f7a)
+- [Tests] increase coverage [`598aa09`](https://github.com/es-shims/Map.groupBy/commit/598aa093b08fd5922a974ac2cbd98a19edd71abf)
+- [readme] add note about Array.prototype.groupToMap [`ef7a1c0`](https://github.com/es-shims/Map.groupBy/commit/ef7a1c04d13636df9591edcd38506f54f25e6182)
+- [Deps] update `array.prototype.filter`, `es-abstract` [`4b1b1b9`](https://github.com/es-shims/Map.groupBy/commit/4b1b1b914a33802c762864cb840367c98d9a12c5)
+- [Dev Deps] update `@ljharb/eslint-config`, `tape` [`c5578d1`](https://github.com/es-shims/Map.groupBy/commit/c5578d1582f631ac7bb35dc2425ca8e077365150)
+- [Tests] replace `aud` with `npm audit` [`a37d869`](https://github.com/es-shims/Map.groupBy/commit/a37d869453e92fe75427c109045f299f3664db42)
+- [Dev Deps] update `@es-shims/api` [`3c9b954`](https://github.com/es-shims/Map.groupBy/commit/3c9b95497538c494d285278afd107688427856b9)
+- [Dev Deps] add missing peer dep [`1ce533c`](https://github.com/es-shims/Map.groupBy/commit/1ce533cf0a063d454cc70bbfba77b09639be2795)
+
 ## [v1.0.3](https://github.com/es-shims/Map.groupBy/compare/v1.0.2...v1.0.3) - 2024-03-17
 
 ### Commits
