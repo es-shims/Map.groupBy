@@ -11,6 +11,8 @@ An ESnext spec-compliant `Map.groupBy` shim/polyfill/replacement that works as f
 
 This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the proposed [spec](https://tc39.github.io/proposal-array-grouping/).
 
+Note: Safari 16 implements `Array.prototype.groupToMap`, but it does not work properly with strings containing surrogate pairs.
+
 ## Getting started
 
 ```sh
