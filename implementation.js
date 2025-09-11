@@ -2,7 +2,7 @@
 
 var callBind = require('call-bind');
 
-var GroupBy = require('es-abstract/2024/GroupBy');
+var GroupBy = require('es-abstract/2025/GroupBy');
 
 var forEach = require('es-abstract/helpers/forEach');
 
@@ -11,7 +11,7 @@ var $Map = require('es-map/polyfill')();
 var $mapSet = callBind($Map.prototype.set);
 
 module.exports = function groupBy(items, callbackfn) {
-	var groups = GroupBy(items, callbackfn, 'ZERO'); // step 1
+	var groups = GroupBy(items, callbackfn, 'COLLECTION'); // step 1
 
 	var map = new $Map(); // step 2
 
