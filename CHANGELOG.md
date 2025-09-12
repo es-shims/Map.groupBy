@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/Map.groupBy/compare/v1.0.4...v1.0.5) - 2025-09-11
+
+### Commits
+
+- [Deps] update `es-abstract` [`f6e7f1a`](https://github.com/es-shims/Map.groupBy/commit/f6e7f1adc9e954be12ceee10c0a4e8174d56ff70)
+- [Deps] update `@es-shims/api`, `@ljharb/eslint-config` [`daa33fd`](https://github.com/es-shims/Map.groupBy/commit/daa33fd47b1fadd9036b4a4a0fd60bd5e1058071)
+- [Deps] update `es-map` [`1ba1cf8`](https://github.com/es-shims/Map.groupBy/commit/1ba1cf8cbe059dcfbbd0c1bd83e123de2f8912d2)
+
 ## [v1.0.4](https://github.com/es-shims/Map.groupBy/compare/v1.0.3...v1.0.4) - 2025-03-25
 
 ### Commits
