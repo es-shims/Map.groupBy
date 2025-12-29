@@ -76,5 +76,5 @@ Simply clone the repo, `npm install`, and run `npm test`
 [downloads-url]: https://npm-stat.com/charts.html?package=map.groupby
 [codecov-image]: https://codecov.io/gh/es-shims/Map.groupBy/branch/main/graphs/badge.svg
 [codecov-url]: https://app.codecov.io/gh/es-shims/Map.groupBy/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/Map.groupBy
+[actions-image]: https://img.shields.io/github/check-runs/es-shims/Map.groupBy/main
 [actions-url]: https://github.com/es-shims/Map.groupBy/actions
